@@ -1,0 +1,5 @@
+{
+  "backendUrl": "http://localhost:8082",
+  "port": 8082,
+  "databaseUrl": "mongodb+srv://amrdoma123:LOfIXfx7gxZu74S5@amrdoma.iftju8l.mongodb.net/"
+}

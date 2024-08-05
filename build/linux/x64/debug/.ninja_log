@@ -1,0 +1,80 @@
+# ninja log v5
+3	4771	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/flutter_linux.h	b45e509174732e82
+3	4771	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h	b45e509174732e82
+3	4771	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h	b45e509174732e82
+3	4771	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h	b45e509174732e82
+3	4771	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h	b45e509174732e82
+3	4771	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h	b45e509174732e82
+3	4771	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/libflutter_linux_gtk.so	b45e509174732e82
+3	4771	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h	b45e509174732e82
+3	4771	0	flutter/_phony_	b45e509174732e82
+22522	25262	1722690396935858095	CMakeFiles/safareya_app.dir/main.cc.o	6646b6862d37284b
+3	4771	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h	b45e509174732e82
+4772	5428	1722883004484304785	CMakeFiles/safareya_app.dir/my_application.cc.o	5a957ba6f65827b0
+5428	5572	1722883004632307062	intermediates_do_not_run/safareya_app	399c1c1d335ca51c
+5572	5891	0	CMakeFiles/install.util	1c2eb96b5f272b9
+3	4771	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_method_response.h	b45e509174732e82
+3	4771	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h	b45e509174732e82
+3	4771	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_method_call.h	b45e509174732e82
+3	4771	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	b45e509174732e82
+3	4771	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h	b45e509174732e82
+3	4771	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h	b45e509174732e82
+3	4771	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h	b45e509174732e82
+3	4771	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h	b45e509174732e82
+3	4771	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_value.h	b45e509174732e82
+3	4771	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_engine.h	b45e509174732e82
+3	4771	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_view.h	b45e509174732e82
+4773	5389	1722883004444304170	CMakeFiles/safareya_app.dir/flutter/generated_plugin_registrant.cc.o	534510543d50dcd4
+3	4771	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h	b45e509174732e82
+3	4927	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/libflutter_linux_gtk.so	b45e509174732e82
+3	4927	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h	b45e509174732e82
+3	4927	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h	b45e509174732e82
+3	4927	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h	b45e509174732e82
+3	4927	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h	b45e509174732e82
+3	4927	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_engine.h	b45e509174732e82
+3	4927	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h	b45e509174732e82
+3	4927	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h	b45e509174732e82
+3	4927	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h	b45e509174732e82
+3	4927	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_method_call.h	b45e509174732e82
+3	4927	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h	b45e509174732e82
+3	4927	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h	b45e509174732e82
+3	4927	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_method_response.h	b45e509174732e82
+3	4927	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h	b45e509174732e82
+3	4927	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	b45e509174732e82
+3	4927	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h	b45e509174732e82
+3	4927	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h	b45e509174732e82
+3	4927	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h	b45e509174732e82
+3	4927	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_value.h	b45e509174732e82
+3	4927	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_view.h	b45e509174732e82
+3	4927	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/flutter_linux.h	b45e509174732e82
+3	4927	0	flutter/_phony_	b45e509174732e82
+4929	5569	1722887208077454293	CMakeFiles/safareya_app.dir/flutter/generated_plugin_registrant.cc.o	534510543d50dcd4
+4928	5614	1722887208121454802	CMakeFiles/safareya_app.dir/my_application.cc.o	5a957ba6f65827b0
+5614	5842	1722887208349457439	intermediates_do_not_run/safareya_app	399c1c1d335ca51c
+5842	6254	0	CMakeFiles/install.util	1c2eb96b5f272b9
+4	4906	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/libflutter_linux_gtk.so	b45e509174732e82
+4	4906	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h	b45e509174732e82
+4	4906	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h	b45e509174732e82
+4	4906	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h	b45e509174732e82
+4	4906	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h	b45e509174732e82
+4	4906	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_engine.h	b45e509174732e82
+4	4906	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h	b45e509174732e82
+4	4906	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h	b45e509174732e82
+4	4906	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h	b45e509174732e82
+4	4906	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_method_call.h	b45e509174732e82
+4	4906	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h	b45e509174732e82
+4	4906	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h	b45e509174732e82
+4	4906	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_method_response.h	b45e509174732e82
+4	4906	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h	b45e509174732e82
+4	4906	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	b45e509174732e82
+4	4906	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h	b45e509174732e82
+4	4906	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h	b45e509174732e82
+4	4906	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h	b45e509174732e82
+4	4906	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_value.h	b45e509174732e82
+4	4906	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/fl_view.h	b45e509174732e82
+4	4906	0	/home/amrdoma/Desktop/Flutter App Safareyat/safareya_app/linux/flutter/ephemeral/flutter_linux/flutter_linux.h	b45e509174732e82
+4	4906	0	flutter/_phony_	b45e509174732e82
+4909	5539	1722887258526027960	CMakeFiles/safareya_app.dir/flutter/generated_plugin_registrant.cc.o	534510543d50dcd4
+4908	5571	1722887258558028317	CMakeFiles/safareya_app.dir/my_application.cc.o	5a957ba6f65827b0
+5571	5833	1722887258814031179	intermediates_do_not_run/safareya_app	399c1c1d335ca51c
+5833	6293	0	CMakeFiles/install.util	1c2eb96b5f272b9
