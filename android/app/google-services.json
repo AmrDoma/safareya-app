@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "218040185845",
+    "project_id": "safar-87c56",
+    "storage_bucket": "safar-87c56.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218040185845:android:d460814efe790a9430a6bc",
+        "android_client_info": {
+          "package_name": "com.example.safareya_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "218040185845-a1movit48m7dpkpmciqt2k1umv7gd4hl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRTo5zNU59Tgz4tlbOCti7e--Qq9XhqCg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "218040185845-a1movit48m7dpkpmciqt2k1umv7gd4hl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

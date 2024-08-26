@@ -1,8 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:safareya_app/pages/login_page.dart';
 import 'pages/home_page.dart'; // Import the HomePage
 
-void main() {
+import 'package:firebase_core/firebase_core.dart';
+import 'firebase_options.dart';
+
+Future<void> main() async{
   runApp(MyApp());
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+);
 }
 
 class MyApp extends StatelessWidget {
@@ -15,7 +23,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.deepPurple,
       ),
       darkTheme: ThemeData.dark(),
-      home: HomePage(), // Set HomePage as the initial screen
+      home: login(), // Set HomePage as the initial screen
     );
   }
 }

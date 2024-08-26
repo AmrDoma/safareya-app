@@ -6,7 +6,7 @@ import 'package:intl/intl.dart';
 class ReceiptDetailPage extends StatelessWidget {
   final Receipt receipt;
 
-  ReceiptDetailPage({required this.receipt});
+  const ReceiptDetailPage({super.key, required this.receipt});
 
   @override
   Widget build(BuildContext context) {
@@ -23,30 +23,30 @@ class ReceiptDetailPage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            SizedBox(height: 8),
+            const SizedBox(height: 8),
             Text(
               receipt.description,
-              style: TextStyle(fontSize: 18),
+              style: const TextStyle(fontSize: 18),
             ),
-            SizedBox(height: 16),
+            const SizedBox(height: 16),
             Text(
               'Date: $formattedDate',
-              style: TextStyle(fontSize: 18),
+              style: const TextStyle(fontSize: 18),
             ),
-            SizedBox(height: 16),
+            const SizedBox(height: 16),
             Expanded(
               child: SingleChildScrollView(
                 child: Table(
                   border: TableBorder.all(),
-                  columnWidths: {
+                  columnWidths: const {
                     0: FlexColumnWidth(3),
                     1: FlexColumnWidth(1),
                   },
                   children: [
-                    TableRow(
+                    const TableRow(
                       children: [
                         Padding(
-                          padding: const EdgeInsets.all(8.0),
+                          padding: EdgeInsets.all(8.0),
                           child: Text(
                             'Item',
                             style: TextStyle(
@@ -54,7 +54,7 @@ class ReceiptDetailPage extends StatelessWidget {
                           ),
                         ),
                         Padding(
-                          padding: const EdgeInsets.all(8.0),
+                          padding: EdgeInsets.all(8.0),
                           child: Text(
                             'Amount',
                             style: TextStyle(
@@ -70,14 +70,14 @@ class ReceiptDetailPage extends StatelessWidget {
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
                               item.name,
-                              style: TextStyle(fontSize: 16),
+                              style: const TextStyle(fontSize: 16),
                             ),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
                               '\$${item.amount.toStringAsFixed(2)}',
-                              style: TextStyle(fontSize: 16),
+                              style: const TextStyle(fontSize: 16),
                             ),
                           ),
                         ],
@@ -85,7 +85,7 @@ class ReceiptDetailPage extends StatelessWidget {
                     }).toList(),
                     TableRow(
                       children: [
-                        Padding(
+                        const Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: Text(
                             'Total',
@@ -97,7 +97,7 @@ class ReceiptDetailPage extends StatelessWidget {
                           padding: const EdgeInsets.all(8.0),
                           child: Text(
                             '\$${receipt.totalAmount.toStringAsFixed(2)}',
-                            style: TextStyle(
+                            style: const TextStyle(
                                 fontSize: 18, fontWeight: FontWeight.bold),
                           ),
                         ),
