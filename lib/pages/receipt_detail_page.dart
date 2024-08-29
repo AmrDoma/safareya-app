@@ -16,7 +16,7 @@ class ReceiptDetailPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(receipt.title),
-        leading: BackButton(),
+        leading: const BackButton(),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -82,11 +82,11 @@ class ReceiptDetailPage extends StatelessWidget {
                           ),
                         ],
                       );
-                    }).toList(),
+                    }),
                     TableRow(
                       children: [
                         const Padding(
-                          padding: const EdgeInsets.all(8.0),
+                          padding: EdgeInsets.all(8.0),
                           child: Text(
                             'Total',
                             style: TextStyle(

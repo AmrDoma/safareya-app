@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
-import 'dart:io'; // Import for File operations
+// Import for File operations
 import 'package:flutter/services.dart'
     show rootBundle; // Import for loading assets
 
 class CreateReceiptPage extends StatefulWidget {
+  const CreateReceiptPage({super.key});
+
   @override
   _CreateReceiptPageState createState() => _CreateReceiptPageState();
 }
@@ -82,10 +84,10 @@ class _CreateReceiptPageState extends State<CreateReceiptPage> {
 
     if (response.statusCode == 201) {
       ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('Receipt created successfully')));
+          const SnackBar(content: Text('Receipt created successfully')));
     } else {
       ScaffoldMessenger.of(context)
-          .showSnackBar(SnackBar(content: Text('Failed to create receipt')));
+          .showSnackBar(const SnackBar(content: Text('Failed to create receipt')));
     }
   }
 
@@ -93,7 +95,7 @@ class _CreateReceiptPageState extends State<CreateReceiptPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Create Receipt'),
+        title: const Text('Create Receipt'),
         backgroundColor: Colors.deepPurple,
       ),
       body: Padding(
@@ -102,10 +104,10 @@ class _CreateReceiptPageState extends State<CreateReceiptPage> {
           children: [
             TextField(
                 controller: _titleController,
-                decoration: InputDecoration(labelText: 'Title')),
+                decoration: const InputDecoration(labelText: 'Title')),
             TextField(
                 controller: _descriptionController,
-                decoration: InputDecoration(labelText: 'Description')),
+                decoration: const InputDecoration(labelText: 'Description')),
             ..._itemControllers.map((controller) {
               int index = _itemControllers.indexOf(controller);
               return Row(
@@ -113,17 +115,17 @@ class _CreateReceiptPageState extends State<CreateReceiptPage> {
                   Expanded(
                       child: TextField(
                           controller: controller,
-                          decoration: InputDecoration(labelText: 'Item Name'))),
+                          decoration: const InputDecoration(labelText: 'Item Name'))),
                   Expanded(
                       child: TextField(
                           controller: _amountControllers[index],
-                          decoration: InputDecoration(labelText: 'Amount'))),
+                          decoration: const InputDecoration(labelText: 'Amount'))),
                 ],
               );
-            }).toList(),
-            ElevatedButton(onPressed: _addItem, child: Text('Add Item')),
+            }),
+            ElevatedButton(onPressed: _addItem, child: const Text('Add Item')),
             ElevatedButton(
-                onPressed: _createReceipt, child: Text('Create Receipt')),
+                onPressed: _createReceipt, child: const Text('Create Receipt')),
           ],
         ),
       ),

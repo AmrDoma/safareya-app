@@ -29,6 +29,13 @@
             {
               "client_id": "218040185845-a1movit48m7dpkpmciqt2k1umv7gd4hl.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "218040185845-novm3lcbnkh5be9euls0c3nfh35kf1qh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.safareyaApp"
+              }
             }
           ]
         }

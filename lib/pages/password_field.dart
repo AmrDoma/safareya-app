@@ -37,7 +37,7 @@ class _PasswordFieldState extends State<PasswordField> {
                   });
                 }),
                 ),
-        validator: (value) => value!.isEmpty ? 'Enter a password' : null,
+        validator: (value) => value!.isEmpty ? 'Enter ${widget.name}' : null,
       ),
     );
   }

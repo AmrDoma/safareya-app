@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'package:intl/intl.dart'; // Add this import for date formatting
 
-import 'dart:io'; // Import for File operations
+// Import for File operations
 import 'package:flutter/services.dart'
     show rootBundle; // Import for loading assets
 import 'package:http/http.dart' as http;
@@ -10,6 +10,8 @@ import '../models/receipt.dart'; // Import the Receipt class
 import 'receipt_detail_page.dart'; // Import the ReceiptDetailPage
 
 class ViewReceiptsPage extends StatefulWidget {
+  const ViewReceiptsPage({super.key});
+
   @override
   _ViewReceiptsPageState createState() => _ViewReceiptsPageState();
 }
@@ -55,9 +57,9 @@ class _ViewReceiptsPageState extends State<ViewReceiptsPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('View Receipts'),
+        title: const Text('View Receipts'),
         leading: IconButton(
-          icon: Icon(Icons.arrow_back),
+          icon: const Icon(Icons.arrow_back),
           onPressed: () {
             Navigator.of(context).pop();
           },
@@ -67,11 +69,11 @@ class _ViewReceiptsPageState extends State<ViewReceiptsPage> {
         future: futureReceipts,
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.waiting) {
-            return Center(child: CircularProgressIndicator());
+            return const Center(child: CircularProgressIndicator());
           } else if (snapshot.hasError) {
             return Center(child: Text('Error: ${snapshot.error}'));
           } else if (!snapshot.hasData || snapshot.data!.isEmpty) {
-            return Center(child: Text('No receipts found.'));
+            return const Center(child: Text('No receipts found.'));
           } else {
             return ListView.builder(
               itemCount: snapshot.data!.length,
