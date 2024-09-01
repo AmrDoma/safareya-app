@@ -144,7 +144,27 @@ class _loginState extends State<login> {
                 ),
                 child: const Text('Signin', style: TextStyle(fontSize: 30)),
               ),
-              const SizedBox(height: 40),
+              const SizedBox(height: 10),
+              TextButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => SignupPage()),
+                  );
+                },
+                child: const Text(
+                  "Don't have an account?",
+                  style: TextStyle(
+                    color: Color.fromARGB(255, 68, 168, 211),
+                    fontSize: 16,
+                  ),
+                ),
+              ),
+              const Divider(
+                indent: 20,
+                endIndent: 20,
+              ),
+              const SizedBox(height: 30),
               ElevatedButton(
                   onPressed: () async {
                     widget.signInWithGoogle().then((onValue) => {
@@ -169,22 +189,6 @@ class _loginState extends State<login> {
                       ]
                       )
                       ),
-              const SizedBox(height: 40),
-              TextButton(
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => SignupPage()),
-                  );
-                },
-                child: const Text(
-                  "Don't have an account?",
-                  style: TextStyle(
-                    color: Color.fromARGB(255, 68, 168, 211),
-                    fontSize: 16,
-                  ),
-                ),
-              ),
             ],
           ),
         ),

@@ -106,7 +106,7 @@ class _SignupPageState extends State<SignupPage> {
                 ),
                 child: const Text('Signup', style: TextStyle(fontSize: 30)),
               ),
-              const SizedBox(height: 40),
+              const SizedBox(height: 20),
               TextButton(
                 onPressed: () {
                   Navigator.push(
